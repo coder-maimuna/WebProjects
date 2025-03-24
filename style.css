@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Epilogue',serif;
+}
+
+#hero {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.herotext h1{
+    font-size:80px;
+}
+
+.heroimg > img{
+    width:100%;
+}
+
+#brands{
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+#skills {
+    margin-bottom: 150px;
+}
+
+.skillstxt {
+    width: 250px;
+}
+
+.skillstxt {
+    font-size: 27px;
+}
+
+.skillstxt > p{
+    font-size: 17px;
+    line-height: 27px;
+    margin-top: 20px;
+}
+
+#latestw {
+    margin-bottom: 150px;
+}
+
+#clients{
+    margin-bottom: 150px;
+}
+
+.cl-card{
+    background-color: #FFFCF5;
+    border: 2px solid #FFD285;
+    width: 315px;
+    height: 344px;
+    position: relative;
+}
+
+.r-txt{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-left: 15px;
+    padding-top: 25px;
+    width: 263px;
+    padding-bottom: 40px;
+}
+
+.r-txt > p {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.r-info {
+    position: absolute;
+    justify-content: start;
+    top: 70%;
+    left: 0;
+}
+
+.f-txt{
+    width: 360px;
+}
+
+.f-txt > p {
+    font-size: 17px;
+}
+
+footer{
+    margin-bottom: 100px;
+}
+
+input{
+    background-color: #F3F3F3;
+    border: 0;
+    padding: 20px 0px 20px 20px;
+}
+
+.message {
+    padding-bottom: 231px;
+}
+
+.Submit {
+    width: 235px;
+    height: 80px;
+    background-color: black;
+    color: white;
+    border: 0;
+}
+
+@media (max-width: 575px) {
+    .herotext h1{
+        font-size:43px;
+    }
+    
+    .heroimg > img{
+        width:80%;
+    }
+
+}
